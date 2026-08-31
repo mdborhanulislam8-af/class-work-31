@@ -68,8 +68,12 @@ img{
 }
 .button a{
     text-decoration: none;
-    height: 10px;
-    font-size: larger;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    border: 1px double white;
+    border-radius: 20px;
+    padding: 5px;
 }
 .button a:hover{
     background-color: black;
