@@ -1,0 +1,99 @@
+ 
+nav ul{
+    
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+ }
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    color: black;
+    background-color: aquamarine;
+    border-radius: 20px;
+    /*border-right: 1px solid black;*/
+    margin-right: 15px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.832);
+    border-radius: 25px;
+    color: whiteS;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin: 0;
+}
+h3{
+    color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#search{
+    width: 800px;
+    height: 30px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-size: medium;
+    font-style: italic;
+    padding: 10px;
+}
+.bookcart{
+    height: 530px;
+    width: 400px;
+    background-color: rgb(112, 161, 221);
+    padding: 30px;
+    border-radius: 30px; 
+    align-content: center;
+    align-items: center;
+    padding-right: 8px;
+    margin: 20px;
+    margin-top: 80px;
+}
+img{
+    border: 2px solid rgb(148, 158, 198);
+    padding-left: 15px;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.button a{
+    text-decoration: none;
+    height: 10px;
+    font-size: larger;
+}
+.button a:hover{
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+}
+.button1{
+    padding-left: 5px;
+}
+
+#price{
+    font-size: larger;
+    color: rgb(146, 13, 13);
+}
+.alldiv{
+    display: flex;
+    justify-content:space-around;
+    
+}
+footer{
+    text-align: center;
+   
+    background-color: rgba(17, 16, 14, 0.77);
+    color: white;
+    padding: 40px;
+    border-radius: 60px;
+}
