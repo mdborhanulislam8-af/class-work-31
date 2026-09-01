@@ -1,4 +1,8 @@
- 
+ body{
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(212, 212, 212);
+}
 nav ul{
     
     list-style: none;
@@ -24,7 +28,7 @@ nav ul li a:hover{
 header{
     background-color: rgba(0, 0, 0, 0.832);
     border-radius: 25px;
-    color: whiteS;
+    color: white;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -90,8 +94,8 @@ img{
 }
 .alldiv{
     display: flex;
-    justify-content:space-between;
-    
+    justify-content:space- between;
+    padding-right: 80px;
 }
 footer{
     text-align: center;
@@ -100,4 +104,9 @@ footer{
     color: white;
     padding: 40px;
     border-radius: 60px;
+}
+.about-us{
+    text-align: center;
+    padding: 20px;
+   background-color: rgb(112, 161, 221);
 }
